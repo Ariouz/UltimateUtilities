@@ -1,0 +1,3 @@
+update_checker:
+  check: true
+  sendToOp: true

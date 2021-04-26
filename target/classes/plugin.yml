@@ -1,0 +1,51 @@
+name: UltimateUtilities
+version: 1.0.1
+main: fr.ariouz.ultimateutilities.UltimateUtilities
+authors: [Ariouz]
+softdepend:
+  - PlaceHolderAPI
+description: Utilities Plugin
+website: https://nessy-design.fr
+commands:
+  uhelp:
+    description: Help command.
+  ureload:
+    description: Reload the plugin
+  gm0:
+    aliases: gms
+  gm1:
+    aliases: gmc
+  gm2:
+    aliases: gma
+  gm3:
+    aliases: gmspec
+  feed:
+    description: Feed a player
+  day:
+    description: Set time to day
+  night:
+    description: Set time to night
+  discord:
+    description: Get discord link
+  website:
+    description: Get website link
+  vote:
+    description: Get vote link
+  store:
+    description: Get store link
+  broadcast:
+    description: Broadcast a message
+    aliases: bc
+  fly:
+    description: Enable or disable fly mode
+  sudo:
+    description: Force a player to execute a command
+  motd:
+    description: Chnage server's motd in one command
+  staffchat:
+    aliases: sc
+    description: Chat with only staff players
+  spawn:
+    description: Teleport the player to the server's spawn (/setspawn)
+  setspawn:
+    description: Set the server's spawn

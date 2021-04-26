@@ -1,0 +1,139 @@
+join_message:
+  - "&7[&a+&7] &f%player_name%"
+private_join_message:
+  - "&7&m----------------------"
+  - ""
+  - "&cWelcome %player_name% on the server !"
+  - ""
+  - "&7&m----------------------"
+quit_message:
+  - "&7[&c-&7] &f%player_name%"
+player_not_found_message:
+  - "&b&7[&cUltimateUtilities&7]&r &c%target% is not online"
+no_permission_message:
+  - "&b&7[&cUltimateUtilities&7]&r &cYou don't have the permission to execute that command !"
+command_not_enabled:
+  - "&7&m----------------------"
+  - ""
+  - "&cThis command isn't enabled ! You can enable it in config.yml"
+  - ""
+  - "&7&m----------------------"
+only_player_can_use_command:
+  - "&b&7[&cUltimateUtilities&7]&r &cOnly a player can execute this command !"
+arg_must_be_integer:
+  - "&cYou must enter a valid number"
+command_gamemode_syntax_message:
+  - "&7&m----------------------"
+  - ""
+  - "&b&7[&cUltimateUtilities&7]&r &cSyntax: /gm(0/s) (<player>)"
+  - "&b&7[&cUltimateUtilities&7]&r &cSyntax: /gm(1/c) (<player>)"
+  - "&b&7[&cUltimateUtilities&7]&r &cSyntax: /gm(2/a) (<player>)"
+  - "&b&7[&cUltimateUtilities&7]&r &cSyntax: /gm(3/spec) (<player>)"
+  - ""
+  - "&7&m----------------------"
+command_gamemode_updated:
+  - "&b&7[&cUltimateUtilities&7]&r &6You set &d%target%&6's gamemode to &e%gamemode%"
+command_feed:
+  - "&b&7[&cUltimateUtilities&7]&r &eYou have been feeded."
+command_feed_other:
+  - "&b&7[&cUltimateUtilities&7]&r &eYou have feeded &d%target%."
+command_feed_cooldown:
+  - "&7&m----------------------"
+  - ""
+  - "&b&7[&cUltimateUtilities&7]&r &3Command is under cooldown:"
+  - "&e%hours% &3hours, &e%minutes% &3minutes, &e%seconds% &3seconds left."
+  - ""
+  - "&7&m----------------------"
+command_feed_syntax_message:
+  - "&7&m----------------------"
+  - ""
+  - "&cSyntax: /feed"
+  - "&cSyntax: /feed <player>"
+  - ""
+  - "&7&m----------------------"
+command_day_message:
+  - "&b&7[&cUltimateUtilities&7]&r &aYou set the time to &2%time%"
+command_night_message:
+  - "&b&7[&cUltimateUtilities&7]&r &aYou set the time to &2%time%"
+command_discord_message:
+  - "&7&m----------------------"
+  - ""
+  - "&f&bHere is our discord: &r&6https://discord.gg/minecraft"
+  - "&fJoin us to chat with our community !"
+  - ""
+  - "&7&m----------------------"
+command_website_message:
+  - "&7&m----------------------"
+  - ""
+  - "&f&bHere is our website: &r&6https://website.com"
+  - ""
+  - "&7&m----------------------"
+command_vote_message:
+  - "&7&m----------------------"
+  - ""
+  - "&f&bYou can vote at: &r&6https://website.com/vote"
+  - "&6Voting helps us and gives you crate keys"
+  - ""
+  - "&7&m----------------------"
+command_store_message:
+  - "&7&m----------------------"
+  - ""
+  - "&f&bYou can buy a rank at: &r&6https://website.com/store"
+  - ""
+  - "&7&m----------------------"
+command_broadcast_message:
+  - "&7&m----------------------"
+  - ""
+  - "&f[&e&lInfo&r] %sender% &7» &f%message%"
+  - ""
+  - "&7&m----------------------"
+command_broadcast_syntax:
+  - "&7&m----------------------"
+  - ""
+  - "&cSyntax: /broadcast <message>"
+  - "&cSyntax: /bc <message>"
+  - ""
+  - "&7&m----------------------"
+command_fly_message_enable:
+  - "&b&7[&cUltimateUtilities&7]&r Fly mode enabled for %player%"
+command_fly_message_disable:
+  - "&b&7[&cUltimateUtilities&7]&r Fly mode disabled for %player%"
+command_fly_target_message_enable:
+  - "&b&7[&cUltimateUtilities&7]&r Fly mode enabled by %sender%"
+command_fly_target_message_disable:
+  - "&b&7[&cUltimateUtilities&7]&r Fly mode disabled by %sender%"
+command_fly_syntax_message:
+  - "&7&m----------------------"
+  - ""
+  - "&cSyntax: /fly (<player>)"
+  - ""
+  - "&7&m----------------------"
+command_sudo_message:
+  - "&b&7[&cUltimateUtilities&7]&r The command &d/%command% &rwas executed by &e%target%"
+command_sudo_syntax_message:
+  - "&7&m----------------------"
+  - ""
+  - "&cSyntax: /sudo <player> <command>"
+  - ""
+  - "&7&m----------------------"
+command_motd_message:
+  - "&b&7[&cUltimateUtilities&7]&r The line &e%line% &fof the server's motd has been updated to:"
+  - "%motd%"
+command_motd_syntax_message:
+  - "&7&m----------------------"
+  - ""
+  - "&cSyntax: /motd <1/2> <message>"
+  - ""
+  - "&7&m----------------------"
+command_staffchat_message:
+  - "&b&7[&cUltimateUtilities&7]&r &3StaffChat&f: &6%sender% &7» &f%message%"
+command_staffchat_syntax_message:
+  - "&7&m----------------------"
+  - ""
+  - "&cSyntax: /staffchat <message>"
+  - ""
+  - "&7&m----------------------"
+command_spawn_message:
+  - "&b&7[&cUltimateUtilities&7]&r You have been teleported to the spawn"
+command_setspawn_message:
+  - "&b&7[&cUltimateUtilities&7]&r Server's spawn have been set to %coords%"

@@ -1,0 +1,4 @@
+motd:
+  lines:
+    first: "&7''''''''''''''''''''>>'''&c&lMySuperServer'''&r&7<<"
+    second: "'''''''''&l&6Join &e%online_count% &6&lplayers !'''''&r-'''''&f&lPremium Only"

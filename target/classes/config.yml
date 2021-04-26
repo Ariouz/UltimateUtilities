@@ -1,0 +1,39 @@
+join_message:
+  enabled: true
+quit_message:
+  enabled: true
+gamemode_command:
+  enabled: true
+feed_command:
+  enabled: true
+  cooldown: 300
+  op-no-cooldown: true
+day_command:
+  enabled: true
+  time: 6000
+night_command:
+  enabled: true
+  time: 18000
+discord_command:
+  enabled: true
+website_command:
+  enabled: true
+vote_command:
+  enabled: true
+store_command:
+  enabled: true
+fly_command:
+  enabled: true
+broadcast_command:
+  enabled: true
+sudo_command:
+  enabled: true
+motd_command:
+  enabled: true
+staffchat_command:
+  enabled: true
+spawn_command:
+  enabled: true
+  coords: "0,150:0:0f:0f:w-world"
+setspawn_command:
+  enabled: true

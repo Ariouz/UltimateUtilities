@@ -1,0 +1,29 @@
+is_scoreboard_enabled: true
+update_time: 20
+board_change_time: 100
+boards:
+  main_board:
+    title: "&6&lMySuper&eServer"
+    lines:
+      - "&6&lPlayer Infos"
+      - " &fName&7: %player_name%"
+      - " &fRank&7: %luckperms_prefix%"
+      - " &fHealth&7: &f%player_health%"
+      - " &fPing&7: %player_ping%"
+      - ""
+      - "&6&lServer Infos"
+      - " &fOnline&7: %server_online%"
+      - " &fIP: &7mc.mysuperserver.net"
+  second_board:
+    title: "Page 2"
+    lines:
+      - "&cThis is board 2"
+      - "&6You can add as"
+      - "&emany boards as"
+      - "&ayou want !"
+      - "&f&lBut lines can't"
+      - "&f&lbe longer than 30 chars"
+  potato_board:
+    title: "Page 3"
+    lines:
+      - "&6&lI like patatoes !"
